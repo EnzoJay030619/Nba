@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Nba.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 500px;
+}
+.title{
+  font-family: 'Roboto Slab';
+  color: #800000;
+  font-size: 36px;
+  font-weight: 700px;
+  width: 780px;
+  text-align: center;
+  letter-spacing: 8px;
+}
+.profile{
+  display: block;
+  border-radius: 100%;
+  margin-top: -50px;
+  margin-left: auto;
+   margin-right: auto;
+  width: 150px;
+  border: 4px solid white;
+}
+.name{
+  text-align: center;
+  font-family:robot;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  line-height: 24px;
+}
+hr{
+  border: solid;
+  top: 10px;
+  border-width: 2px;
+  color: white	;
+  width: 200px;
+}
+#container{
+  margin-left: 150px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.Names{
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  padding-left: 40px;
+
+}
+.numbers{
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.story{
+  width: 66.67%;
+  display: inline-block;
+  padding-left: 70px;
+}
+ a
+ {
+  display: block;
+  margin-bottom: 10px;
+  color: #42b4d6;
+  text-decoration: none;
+  padding-left: 70px;
+}
+p{
+  width: 66.67%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+
+}
+strong{
+  color:olive;
+  display: block;
+  padding-bottom: 30px;
+}
+img.pic{
+  display: block;
+  width: 66.67%;
+  padding-left: 70px;
+  padding-bottom: 120px;
+ }
+#clips video{
+	width: 500px;
+	margin-left: 250px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#footer{
+	background-color:#efefef;
+	margin-top: 20px
+	padding:10px 0px 5px 0px;
+
+}
